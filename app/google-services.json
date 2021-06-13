@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702094884431",
+    "project_id": "sanal-dolabim",
+    "storage_bucket": "sanal-dolabim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702094884431:android:1711b002be8516074ff43a",
+        "android_client_info": {
+          "package_name": "com.studio.sanaldolabim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702094884431-6k06adcdsvei1cue2oui09ov16b3n7k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEqZiXNl5IL9UFYh39yX2pObq9an_sHPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702094884431-6k06adcdsvei1cue2oui09ov16b3n7k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

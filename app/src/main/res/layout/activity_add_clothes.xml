@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:entries="@array/clothes_category_array"/>
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/clothes_type_arrays" />
+
+    <Spinner
+        android:id="@+id/spinnerPattern"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/clothes_pattern_arrays"/>
+
+    <EditText
+        android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/txtReceiptDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/fileNameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="35dp" />
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSelectFile"
+        android:text="Select file" />
+
+    <Button
+        android:id="@+id/btnSaveQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="onSaveNewClothes"
+        android:text="SAVE" />
+
+</LinearLayout>

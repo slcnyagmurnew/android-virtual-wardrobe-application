@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddEventActivity">
+
+    <EditText
+        android:id="@+id/newEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Event Name.."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newEventType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Event Type.."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newEventDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="Event Date.."
+        android:inputType="date"
+        android:onClick="onSelectDate" />
+
+    <TextView
+        android:id="@+id/txtSelectedLocation"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnSelectLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSelectLocation"
+        android:text="SELECT LOCATION" />
+
+    <TextView
+        android:id="@+id/txtSelectedCombine"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnSelectCombine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onSelectCombine"
+        android:text="SELECT COMBINE" />
+
+    <Button
+        android:id="@+id/btnSaveEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="onSaveEvent"
+        android:text="SAVE EVENT" />
+
+</LinearLayout>
